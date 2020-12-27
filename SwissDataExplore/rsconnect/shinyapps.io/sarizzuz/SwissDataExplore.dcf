@@ -1,0 +1,12 @@
+name: SwissDataExplore
+title: SwissDataExplore
+username:
+account: sarizzuz
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3431169
+bundleId: 4032814
+url: https://sarizzuz.shinyapps.io/SwissDataExplore/
+when: 1609081415.88733
+asMultiple: FALSE
+asStatic: FALSE

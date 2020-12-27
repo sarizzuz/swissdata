@@ -1,0 +1,42 @@
+Explore the Swiss Dataset 
+========================================================
+author: Farah M
+date: December 25, 2020
+autosize: true
+
+The Application
+========================================================
+
+
+This application gives a brief data exploration the Swiss Dataset, which consists of a  standardized fertility measure and socio-economic indicators for each of 47 French-speaking provinces of Switzerland at about 1888. 
+
+
+The Interface
+========================================================
+The Main Panel consists of:
+
+* A histogram displaying the distribution of the variable selected.
+* A scatter plot 
+Consists of a histogram displaying the relationship between 2 variables as well as the regression line of this relationship
+ 
+On the Side Panel, the user:
+
+* Selects a variable and a bin size to control the histogram plot
+* Selects the 2 variables for the scatter plot 
+
+
+The Swiss Dataset
+========================================================
+
+```{r, echo=TRUE}
+str(swiss)
+```
+
+For More Information
+========================================================
+
+Please see the following links:
+
+1. The Swiss Fertility and Socioeconomic Indicators Data (swiss data) can be accessed with **data(swiss)** in R
+
+2. The Shiny app can be accessed [here](https://sarizzuz.shinyapps.io/SwissDataExplore/)
